@@ -9,7 +9,7 @@ namespace task14.Models
     internal class Library:Base
     {
         List<Book> books;
-        static int count;
+        static int count=1;
         public Library(string name):base(name)
         {
             Id = count++;

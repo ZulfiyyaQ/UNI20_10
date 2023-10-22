@@ -9,7 +9,7 @@ namespace task14.Models
 {
     internal class Book:Base
     {
-        static int count;
+        static int count = 1;
         public string Author { get; set; }
         public Category Category { get; set; }
 

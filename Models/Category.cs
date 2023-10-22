@@ -8,12 +8,14 @@ namespace task14.Models
 {
     internal class Category:Base
     {
-        static int count;
+        static int count=1;
         public Category(string name):base(name)
         {
             Id = count++;
             Name = name;
 
         }
+
+        
     }
 }

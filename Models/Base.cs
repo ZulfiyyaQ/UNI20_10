@@ -15,5 +15,10 @@ namespace task14.Models
         {
             Name = name;
         }
+
+        public override string ToString()
+        {
+            return ($" ID: {Id} \n Name: {Name}");
+        }
     }
 }
